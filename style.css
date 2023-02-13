@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincontainer{
+    width: 90%;
+    height: 90%;
+    /* border: 2px solid black; */
+    display: flex;
+  
+}
+
+.parent{
+    width: 33.33%;
+    height: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pr1{
+    background-color: #e38826;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-weight: 800;
+    color: white;
+   
+}
+
+
+.ch2{
+    font-family: 'Zen Dots', cursive;
+    
+}
+.ch3{
+    font-family: 'Poppins', sans-serif; 
+}
+.ch4 button{
+    border: 2px solid black;
+    height: 50px;
+    width: 90px;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Poppins', sans-serif; 
+    
+}
+
+
+.maincontainer .pr1 .child img{
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    background-color:#fab60c ;
+}
+/* ----------------------------------------------------------------- */
+.pr2{
+    background-color: #006970;
+    font-weight: 800;
+    color: white;
+    
+   
+}
+
+.pr2 .ch6{
+    font-family: 'Zen Dots', cursive;
+}
+.pr2 .ch7{
+    font-family: 'Poppins', sans-serif;
+}
+.ch8 button{
+    border: 2px solid black;
+    height: 50px;
+    width: 90px;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Poppins', sans-serif; 
+    
+}
+.maincontainer .pr2 .child img{
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    background-color:#1ccfdb ;
+}
+/* ----------------------------------------------------------------- */
+.pr3{
+    background-color: #004241;
+    font-weight: 800;
+    color: white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.maincontainer .pr3 .child img{
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    background-color:#03a203;
+}
+.pr3 .ch10{
+    font-family: 'Zen Dots', cursive;
+}
+.pr3 .ch11{
+    font-family: 'Poppins', sans-serif;
+}
+.pr3 .ch12 button{
+    border: 2px solid black;
+    height: 50px;
+    width: 90px;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Poppins', sans-serif; 
+    
+}
+
